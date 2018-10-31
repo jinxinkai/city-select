@@ -1,0 +1,5 @@
+<!--pages/index/index.wxml-->
+<button bindtap='open'>打开城市选择</button>
+<city-select show-select="{{citySelectOnShow}}"
+             catch:selectCommit="citySelectData"
+             ></city-select>
